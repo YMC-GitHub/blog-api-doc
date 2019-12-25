@@ -1,0 +1,23 @@
+{
+    "name": "blog-api-doc",
+    "version": "1.0.0",
+    "description": "my blog api doc",
+    "title": "xx-blog-api-doc",
+    "url": "127.0.0.1:4000/api/",
+    "header": {
+        "title": "My own header title",
+        "filename": "header.md"
+    },
+    "footer": {
+        "title": "My own footer title",
+        "filename": "footer.md"
+    },
+    "order": [
+        "GetUser",
+        "PostUser"
+    ],
+    "template": {
+        "withCompare": true,
+        "withGenerator": true
+    }
+}
