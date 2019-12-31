@@ -1,0 +1,9 @@
+{
+    "watch": [
+        "src/",
+        "apidoc.json",
+        "nodemon.json"
+    ],
+    "ext": "js",
+    "exec": "rm -rf dist/ && node src/index.js && npm run build:doc-be-api"
+}

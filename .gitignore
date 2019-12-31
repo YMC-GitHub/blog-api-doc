@@ -4,10 +4,6 @@ dist/
 npm-debug.log
 .vscode/
 .idea/
-admin.lock
-server/config/secret.js
-server/config/mpapp.js
 yarn-error.log
-out/
 docs/
 dev/

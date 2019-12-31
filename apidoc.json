@@ -3,21 +3,19 @@
     "version": "1.0.0",
     "description": "my blog api doc",
     "title": "xx-blog-api-doc",
-    "url": "127.0.0.1:4000/api/",
-    "header": {
-        "title": "My own header title",
-        "filename": "header.md"
-    },
-    "footer": {
-        "title": "My own footer title",
-        "filename": "footer.md"
-    },
+    "url": "",
     "order": [
         "GetUser",
         "PostUser"
     ],
+    "header": {
+        "title": "readme",
+        "filename": "header.md"
+    },
     "template": {
+        "forceLanguage": "en",
         "withCompare": true,
-        "withGenerator": true
+        "withGenerator": true,
+        "aloneDisplay": true
     }
 }
